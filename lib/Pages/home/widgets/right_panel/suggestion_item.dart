@@ -30,7 +30,7 @@ class SuggestionItem extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Nikolas Tesla',
+                  'Sugestões para você.',
                   style: TextStyle(
                       fontWeight: FontWeight.w400, color: Colors.grey),
                 )
@@ -42,7 +42,7 @@ class SuggestionItem extends StatelessWidget {
             child: GestureDetector(
               onTap: () {},
               child: Text( 
-                'Ligar',
+                'Seguir',
                 style: TextStyle(
                     color: Color(0xFF0396f6),
                     fontSize: 12,

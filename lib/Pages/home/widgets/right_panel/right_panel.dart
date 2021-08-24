@@ -52,7 +52,7 @@ class RightPanel extends StatelessWidget {
                   child: GestureDetector(
                     onTap: () {},
                     child: Text(
-                      'Sair',
+                      'Mudar',
                       style: TextStyle(
                           color: Color(0xFF0396f6),
                           fontSize: 12,
@@ -91,6 +91,8 @@ class RightPanel extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8,),
+            SuggestionItem(),
+            SuggestionItem(),
             SuggestionItem(),
             SuggestionItem(),
             SuggestionItem(),
